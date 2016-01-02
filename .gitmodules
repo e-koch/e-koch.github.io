@@ -1,1 +1,4 @@
 
+[submodule "_includes/myCV"]
+	path = _includes/myCV
+	url = https://github.com/e-koch/myCV.git

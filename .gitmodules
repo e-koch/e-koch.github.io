@@ -1,0 +1,3 @@
+[submodule "myCV"]
+	path = myCV
+	url = git@github.com:e-koch/myCV.git

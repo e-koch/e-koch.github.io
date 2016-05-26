@@ -5,6 +5,7 @@ date:   2016-04-16 12:00:00 -0800
 categories: research
 ---
 
+
 The [FilFinder][filfinder_repo] algorithm continues to evolve, slowly... There are still many interesting aspects to explore in the ever-evolving story of filament extraction, and I've recently added a new one to FilFinder: width profiles along the main extent of filaments.
 
 The code is still in development (generalized, robust fitting is non-trivial), but the basic functionality works great! Its biggest limitation is the need for a single connected skeleton, which greatly reduces the difficulty in deriving the normal vectors at each pixel. Because of this, the longest path skeletons should be used. Or individual branches, though the usefulness of short branches is limited (the first and last few pixels are skipped due to how the normal vector is found).

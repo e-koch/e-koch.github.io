@@ -14,15 +14,15 @@ This addition allows investigation of how the profiles change along the filament
 
 I've added a [new example script][example_script] for how to use the code, based on the same simulated data used in the rest of the [FilFinder tutorial][tutorial]. Here is an example profile (from one of the less crowded regions):
 
-![Pretty profile!]({{ site.url }}/images/sim_filament_profile_041616.png)
+![Pretty profile!](/images/sim_filament_profile_041616.png)
 
 The asymmetry in the profile looks quite interesting, and since the simulated data is simply a turbulent box, is likely due to supersonic shocks. Cool! Modeling this effect, and minimizing the influence of unassociated filaments in crowded regions, are the next goals to address for this new addition to the code base.
 
 Bugs and issues with FilFinder can be reported on [GitHub][issues].
 
 
-[filfinder_repo] : https://github.com/e-koch/FilFinder
-[example_script] : https://github.com/e-koch/FilFinder/blob/master/examples/example_filament_profile.py
-[tutorial] : http://fil-finder.readthedocs.org/en/latest/tutorial.html
-[liu_paper] : http://adsabs.harvard.edu/abs/2016arXiv160403548L
-[issues] : https://github.com/e-koch/FilFinder/issues
+[filfinder_repo]: https://github.com/e-koch/FilFinder
+[example_script]: https://github.com/e-koch/FilFinder/blob/master/examples/example_filament_profile.py
+[tutorial]: http://fil-finder.readthedocs.org/en/latest/tutorial.html
+[liu_paper]: http://adsabs.harvard.edu/abs/2016arXiv160403548L
+[issues]: https://github.com/e-koch/FilFinder/issues

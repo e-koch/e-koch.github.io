@@ -1,0 +1,74 @@
+---
+layout: default
+title: Research
+permalink: /research/
+---
+
+<div class="wrapper">
+
+  <h1 class="page-heading">Research</h1>
+
+  <p>My research focuses on the properties of the neutral interstellar medium (ISM) and the life cycle of molecular clouds. I am interested in understanding the mechanisms responsible for the formation of molecular clouds, what controls the onset of star formation, and observational diagnostics of molecular cloud destruction. These phenomena occur on a large range of spatial scales so I use high-resolution observations of the ISM in nearby galaxies to link mechanisms on galaxy-scales (e.g., spiral arms, shear) to those that act on molecular cloud scales (e.g., stellar feedback).</p>
+
+  <p>A list of my publications can be found <a href="https://ui.adsabs.harvard.edu/#search/q=orcid%3A0000-0001-9605-780X&sort=date+desc">here</a> on ADS.</p>
+
+  <h2 class="page-heading">Linking the Atomic and Molecular Interstellar Medium</h2>
+
+    <p>Star formation occurs exclusively in cold, dense molecular gas referred to as molecular clouds. These newly-formed stars inject energy back into the cloud, eventually leading to its destruction.  To keep stars forming throughout a galaxy, there must be an on-going evolution of molecular clouds, with new clouds being formed similar to the rate that they are destroyed.</p>
+
+    <p>The atomic ISM is warmer and more diffuse than the molecular ISM, but it tends to fill a much larger volume. The cold atomic gas is of particular interest for molecular cloud studies because it is the most readily available reservoir to form molecular clouds from. By studying the atomic gas properties where molecular clouds are located, we can look for observational signatures of how they form.</p>
+
+    <p>I use radio interferometry to study how the molecular and atomic ISM are related in nearby (within 1 Mpc) galaxies on the scales of molecular clouds (20-100 pc). I lead an observational campaign of the <a href=https://ui.adsabs.harvard.edu/#abs/2018MNRAS.479.2505K/abstract">M33</a> galaxy (Triangulum) using the <a href="http://www.vla.nrao.edu">VLA</a> to trace the atomic ISM with the <a href="https://en.wikipedia.org/wiki/Hydrogen_line">21-cm hydrogen line</a>. These observations have a similar spatial resolution to previous VLA observations, but have improved sensitivity and spectral resolution (200 m/s), fine enough to fine signatures of the cold (~100 K) atomic gas with line widths of ~1 km/s. Coupled with <a href="https://www.aanda.org/articles/aa/abs/2014/07/aa23682-14/aa23682-14.html">high-resolution observations</a> of the molecular gas from the CO molecule, we can compare the atomic and molecular ISM properties across a galaxy. The image below shows the atomic gas in M33 in gray and the location of molecular gas in the contours.</p>
+
+    <center><img src="{{ site.baseurl }}images/coldens_map_14B088_w_CO21.png" width="50%"></center>
+
+
+    <p>Nearby galaxies are the ideal laboratories for this study since current radio telescopes can resolve the tens of pc scales of molecular clouds in both the atomic and molecular ISM. Observations of the atomic gas are the limiting factor here since the VLA can only resolve these scales out to distances of 1 Mpc. The other appealing property of nearby galaxies is that molecular clouds are all at roughly the same distance. In the Milky Way, multiple sources can be detected along a line-of-sight in the disc due to the Sun's position and the distance to each source is often unconstrained. Nearby galaxies provide a uniform sample with this ambiguity.</p>
+
+
+    <!-- <p><a href="https://ui.adsabs.harvard.edu/#abs/2019MNRAS.tmp..482K/abstract">My recent work</a> uses these observations to study how the molecular and atomic gas kinematics are related. By stacking many spectra, aligned to a common centre, we find that the CO line width in M33 is always narrower than the HI, unlike other spiral galaxies whose CO line width is typically the same as the HI. These similar line widths has been used to argue for the presence of a thick molecular disc, containing molecular gas that may not be related to molecular clouds. The narrower CO line width in M33 suggests it has a marginal thick molecular disc.</p> -->
+
+    <p><a href="https://ui.adsabs.harvard.edu/#abs/2019MNRAS.tmp..482K/abstract">My recent work</a> uses these observations to study the kinematics of individual clouds in the atomic and molecular ISM. We find that there is a strong correlation between the CO and HI line widths with intrinsic scatter, shown below.</p>
+
+    <center><img src="{{ site.baseurl }}images/sigma_HI_vs_H2_w_fit_cornerplot.png" width="50%"></center>
+
+    <p>The CO tends to be ~0.55 times the HI line width, which is a steeper relation what has been found in the <a href="https://ui.adsabs.harvard.edu/#abs/2009ApJ...705..144F/abstract">LMC</a>. The intrinsic scatter is particularly interesting because it arises from differences in individual molecular clouds. The line widths from a few clouds near M33's northern spiral arm are highlighted below.</p>
+
+    <center><img src="{{ site.baseurl }}images/sigma_HI_vs_H2_w_example_regions.png" width="50%"></center>
+
+    <p>The line widths seem to retain some correlation when drawn from individual clouds, but their variations lead to the intrinsic scatter in the relation. My on-going work explores whether these variations are driven by molecular clouds at different evolutionary stages and whether this relation continues to hold with a factor of 3 better in resolution with new VLA and ALMA observations.</p>
+
+    <p>Our collaboration has collected similar HI observations across the Local Group, including M31 and nearby dwarf galaxies. I am working on combining these observations with our M33 data to expand our study of cloud-scale properties in the atomic gas.</p>
+
+  <h2 class="page-heading">Observational Diagnostics of Interstellar Turbulence</h2>
+
+  Many observational methods for extracting the statistics of turbulence
+  TurbuStat implements many methods. Makes it easy to compare
+  Implements metrics for determining how different two observations are.
+  Links to TurbuStat
+
+  <h2 class="page-heading">Comparing Observations and Simulations of Star Formation through Experimental Design</h2>
+
+  Extended emission in molecular clouds; how do we determine same or different?
+  Use experimental design. Run a bunch of simulations. Produce mock observations. Test for interactions between different physical parameters.
+  Utilize distance metrics in TurbuStat to test (i) how susceptible is a method to noise?, (ii) which statistics are sensitive to which physical parameters?
+  With a common baseline, can compare simulations and observations.
+  Mapped out complete parameter spaces in Koch 2017
+  Demonstrated parameter sensitivities to stellar feedback, tracer choice and post-processing choices (links to Ryan's work).
+
+  Can be expanded to galaxy scale comparisons.
+
+  <h2 class="page-heading">Filamentary Properties throughout the Interstellar Medium</h2>
+
+  Outline FilFinder.
+  Find about 0.1 pc filament widths when averaging over whole structures.
+
+  <h2 class="page-heading">Additional Projects</h2>
+
+  <p>Our M33 HI VLA observations simultaneously recorded the 4 hyroxyl (OH) transitions with frequencies near 1.6 GHz. We detected one source in the <a href="https://ui.adsabs.harvard.edu/#abs/2018RNAAS...2a..24K/abstract">1665-MHz line</a>. Since the source was not detected in the other OH lines, the line ratios are not what would be expected from thermal equilibrium and so the source is a maser. This is the first OH maser detection in M33. Our additional observations of M33 show hints that there are two sources which were unresolved in our initial observations. We are currently investigating this interesting source with on-going observations.</p>
+
+  <p>I am keenly interested in modeling systematics for commonly measured properties in the ISM. In a recent <a href="https://ui.adsabs.harvard.edu/#abs/2018RNAAS...2d.220K/abstract">research note</a>, I demonstrated how commonly-used line width approximations systematically over-estimate the true line width in noiseless Gaussian spectra. I then showed how a constant correction factor for finite channels widths over-corrects the bias, leading to under-estimated line widths. The solution, where possible, is to (1) fit an analytic model and forward-model the spectral response function of the spectrometer, or (2) to aim to resolve spectral-lines with 5 channels in the expected FWHM of the line.</p>
+
+  <p>I previously worked on the outburst of a <a href="https://ui.adsabs.harvard.edu/#abs/2014MNRAS.442..372K/abstract">Very Faint Low-Mass X-ray binary</a> in an undergraduate project.</p>
+
+</div>
